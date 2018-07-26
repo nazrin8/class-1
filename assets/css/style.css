@@ -1,0 +1,133 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+/*============================================================
+    Theme Name:
+    Theme URI: 
+    Author: Nazrin
+    Author URI: https://facebook.com/humayunahmed8
+    Description: 
+    Version: 
+    License:
+    License URI: 
+    Tags: 
+==============================================================*/
+
+*/
+
+
+/*	TOC  */
+
+
+/*-------------------------
+
+	 1. 
+	 2. 
+	 3. 
+	 4. 
+	 5. 
+	 6. 
+	 7. 
+	 8. 
+	 9. 
+    10. 
+    
+--------------------------*/
+
+/* =========================
+   Base CSS
+============================ */
+
+img {
+    max-width: 100%;
+    display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+    color: #222;
+}
+html,
+body { height: 100% }
+body {
+    color: #5656565;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+	line-height:25px;
+}
+a:hover { text-decoration: none; }
+
+
+/* =========================
+   Author's custom styles
+============================ */
+
+.blog-box-bg-1{
+    background-image: url(../img/blog-box-bg-1.jpg);
+}
+.blog-box-bg{
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    background-color: #ddd;
+    border: 2px solid #Edaf67;
+}
+.blog-box-bg{
+    border-bottom: none,
+}
+.section-title{
+    text-transform: capitalize;
+   text-align: center;
+    color: black;
+    margin-bottom: 70px;
+    font-size: 20px;
+
+}
+
+section.section-padding{
+    padding: 100px 0;    
+   
+}
+.blog-box-content{
+    border: 2px solid #ddd;
+    padding: 20px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    
+}
+.blog-meta i.fa{
+    color: #Edaf67;
+    font-size: 
+}
+.blog-meta{
+    font-size: 14px;
+ 
+}
+.blog-box-content h3{
+    font-size: 20px;
+}
+.blog-readmore-btn{
+    background: #Edaf67;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+   border-radius: 5px;
+    font-weight: 700;
+  font-size: 15px;
+    margin-top: 5px;
+    -webkit-transition: 0.3s;
+    -webkit-transition: all 0.2s  ease 0s;
+    transition: all 0.2s  ease 0s;
+}
+.blog-readmore-btn:hover{
+    background: #333;
+    color: #fff;
+}
+.single-blog-box:hover .blog-box-content{
+  border-color: #Edaf67;
+}
